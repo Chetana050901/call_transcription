@@ -48,12 +48,48 @@ npm install express axios tmp form-data googleapis
 ### Response
 ```json
 {
-  "success": true,
-  "recordsProcessed": 150,
-  "inserted": 50,
-  "updated": 100,
-  "transactionId": "ringba_transaction_id",
-  "enrichedCalls": [...]
+    "success": true,
+    "recordsProcessed": 20,
+    "inserted": 20,
+    "updated": 0,
+    "transactionId": "TR8cb57645-f679-4a71-b920-88e170bcb09d",
+    "enrichedCalls": [
+        {
+            "callId": "RGB9390050D33CD09C54EDB1C54235DC1CDF96BA8E0V3FKQ01",
+            "timestamp": "2025-07-07T16:44:44.561Z",
+            "campaignId": "CA2ed30a6f2e7d401c8345a0a0a251da72",
+            "campaignName": "Gutters - Nationwide - Variable Rate",
+            "payout": 0,
+            "duration": 23,
+            "hasRecording": true,
+            "recordingUrl": "https://media.ringba.com/recording-public?v=v1&k=eBEF%2fJlux2eoho8ICubzqGWefw7eEpHbS5liyu4GOjYH0Rp69cFqgbx26dzOWvImK6%2bhEXZM8rR%2bLB3f5iS1nGD0J87e3vXyd7HhICCCZRG4dq12zdLUxdI%2fgHae%2fOwkOTEjxcxAHH4cI2E8VY44JnGGUXPC72blP4Oe1Bs%2fqPHDJIJTPJKZT7ntWepuIXqOwvm3UTvZE%2fYUWnnDDGdCbg1LCnpGf9gg8N1BH4SRRWXw8%2bJcE58UN16UPWsKy7Ipdy3mnaTpcTRL7pb0dst3HQ1cGo8%3d",
+            "rawJson": {
+                "campaignName": "Gutters - Nationwide - Variable Rate",
+                "campaignId": "CA2ed30a6f2e7d401c8345a0a0a251da72",
+                "inboundCallId": "RGB9390050D33CD09C54EDB1C54235DC1CDF96BA8E0V3FKQ01",
+                "callDt": 1751906684561,
+                "inboundPhoneNumber": "+15732017237",
+                "number": "+13218782517",
+                "numberPoolId": "",
+                "numberPoolName": "",
+                "timeToCallInSeconds": 0,
+                "callLengthInSeconds": 23,
+                "connectedCallLengthInSeconds": 5,
+                "hasConnected": true,
+                "isDuplicate": false,
+                "hasPreviouslyConnected": false,
+                "isLive": false,
+                "recordingUrl": "https://media.ringba.com/recording-public?v=v1&k=eBEF%2fJlux2eoho8ICubzqGWefw7eEpHbS5liyu4GOjYH0Rp69cFqgbx26dzOWvImK6%2bhEXZM8rR%2bLB3f5iS1nGD0J87e3vXyd7HhICCCZRG4dq12zdLUxdI%2fgHae%2fOwkOTEjxcxAHH4cI2E8VY44JnGGUXPC72blP4Oe1Bs%2fqPHDJIJTPJKZT7ntWepuIXqOwvm3UTvZE%2fYUWnnDDGdCbg1LCnpGf9gg8N1BH4SRRWXw8%2bJcE58UN16UPWsKy7Ipdy3mnaTpcTRL7pb0dst3HQ1cGo8%3d",
+                "timeToConnectInSeconds": 18
+            },
+            "transcript": " Thank you for calling Lee Filter. For a new gutter system, please press 1.",
+            "summary": "The call was an automated message from Lee Filter regarding a new gutter system.",
+            "sentiment": "Neutral",
+            "bullets": [
+                "Press 1 for a new gutter system"
+            ]
+        },
+    ]
 }
 ```
 
