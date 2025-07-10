@@ -2,13 +2,6 @@
 ## Ringba Call Processing API
 A Node.js service that processes Ringba call logs, transcribes recordings, analyzes sentiment, and exports data to Google Sheets.
 
-## Features
-- Fetch call logs from Ringba API
-- Download and transcribe call recordings using OpenAI Whisper
-- Generate summaries and sentiment analysis with GPT-4
-- Store data in MongoDB
-- Export enriched data to Google Sheets
-
 ## Prerequisites
 - Node.js + Express.js
 - MongoDB
@@ -18,13 +11,14 @@ A Node.js service that processes Ringba call logs, transcribes recordings, analy
 
 ## Environment Variables
 ```
+PORT=8000
 RINGBA_ACC_ID_1=your_ringba_account_id
 RINGBA_API_KEY=your_ringba_api_key
 OPENAI_API_KEY=your_openai_api_key
 ```
 
 ## Setup
-1. Install dependencies:
+1. Install dependencies or node modules (npm install):
 ```bash
 npm install express axios tmp form-data googleapis
 ```
