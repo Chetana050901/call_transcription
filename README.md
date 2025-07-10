@@ -54,42 +54,43 @@ npm install express axios tmp form-data googleapis
     "updated": 0,
     "transactionId": "TR8cb57645-f679-4a71-b920-88e170bcb09d",
     "enrichedCalls": [
-        {
-            "callId": "RGB9390050D33CD09C54EDB1C54235DC1CDF96BA8E0V3FKQ01",
-            "timestamp": "2025-07-07T16:44:44.561Z",
-            "campaignId": "CA2ed30a6f2e7d401c8345a0a0a251da72",
-            "campaignName": "Gutters - Nationwide - Variable Rate",
+         {
+            "callId": "RGB6FC632A251AB107C98C3ECBC27DE81BA8F50DA6FV3LX301",
+            "timestamp": "2025-07-07T13:59:05.543Z",
+            "campaignId": "CA8278ed3f26e9495b881fe3833174d007",
+            "campaignName": "Roofing Contractors",
             "payout": 0,
-            "duration": 23,
+            "duration": 78,
             "hasRecording": true,
-            "recordingUrl": "https://media.ringba.com/recording-public?v=v1&k=eBEF%2fJlux2eoho8ICubzqGWefw7eEpHbS5liyu4GOjYH0Rp69cFqgbx26dzOWvImK6%2bhEXZM8rR%2bLB3f5iS1nGD0J87e3vXyd7HhICCCZRG4dq12zdLUxdI%2fgHae%2fOwkOTEjxcxAHH4cI2E8VY44JnGGUXPC72blP4Oe1Bs%2fqPHDJIJTPJKZT7ntWepuIXqOwvm3UTvZE%2fYUWnnDDGdCbg1LCnpGf9gg8N1BH4SRRWXw8%2bJcE58UN16UPWsKy7Ipdy3mnaTpcTRL7pb0dst3HQ1cGo8%3d",
+            "recordingUrl": "https://media.ringba.com/recording-public?v=v1&k=Nt3KXBilep97jRQlJvMpmJyCLePl9mxk%2bYxczu7%2b%2ft2vNmEnqvNp9tiY60swUOeXzhL6O0lk0rHFhQExXW17Efa2ETFRRIezYJWb1mc8JLjMw0UnUlydFz6m3lPU3jlaabvYJZgxlPQh8NZQ8WpK6Xa%2b44AsxNn%2fhD7cJlgTdFHyEsnTn%2b4uv2nPNxWx6GI2Xs2uJpaiQSb77JLTr9b66o4tzMTjdCqeNzSZVTiiFSJwkgwSAuOkickJ6uc4BLmNod%2bPbw%2bCa8mFVe5CUk9vRL9CwWM%3d",
             "rawJson": {
-                "campaignName": "Gutters - Nationwide - Variable Rate",
-                "campaignId": "CA2ed30a6f2e7d401c8345a0a0a251da72",
-                "inboundCallId": "RGB9390050D33CD09C54EDB1C54235DC1CDF96BA8E0V3FKQ01",
-                "callDt": 1751906684561,
-                "inboundPhoneNumber": "+15732017237",
-                "number": "+13218782517",
+                "campaignName": "Roofing Contractors",
+                "campaignId": "CA8278ed3f26e9495b881fe3833174d007",
+                "inboundCallId": "RGB6FC632A251AB107C98C3ECBC27DE81BA8F50DA6FV3LX301",
+                "callDt": 1751896745543,
+                "inboundPhoneNumber": "+12259335505",
+                "number": "+18338052312",
                 "numberPoolId": "",
                 "numberPoolName": "",
                 "timeToCallInSeconds": 0,
-                "callLengthInSeconds": 23,
-                "connectedCallLengthInSeconds": 5,
+                "callLengthInSeconds": 78,
+                "connectedCallLengthInSeconds": 40,
                 "hasConnected": true,
                 "isDuplicate": false,
                 "hasPreviouslyConnected": false,
                 "isLive": false,
-                "recordingUrl": "https://media.ringba.com/recording-public?v=v1&k=eBEF%2fJlux2eoho8ICubzqGWefw7eEpHbS5liyu4GOjYH0Rp69cFqgbx26dzOWvImK6%2bhEXZM8rR%2bLB3f5iS1nGD0J87e3vXyd7HhICCCZRG4dq12zdLUxdI%2fgHae%2fOwkOTEjxcxAHH4cI2E8VY44JnGGUXPC72blP4Oe1Bs%2fqPHDJIJTPJKZT7ntWepuIXqOwvm3UTvZE%2fYUWnnDDGdCbg1LCnpGf9gg8N1BH4SRRWXw8%2bJcE58UN16UPWsKy7Ipdy3mnaTpcTRL7pb0dst3HQ1cGo8%3d",
-                "timeToConnectInSeconds": 18
+                "recordingUrl": "https://media.ringba.com/recording-public?v=v1&k=Nt3KXBilep97jRQlJvMpmJyCLePl9mxk%2bYxczu7%2b%2ft2vNmEnqvNp9tiY60swUOeXzhL6O0lk0rHFhQExXW17Efa2ETFRRIezYJWb1mc8JLjMw0UnUlydFz6m3lPU3jlaabvYJZgxlPQh8NZQ8WpK6Xa%2b44AsxNn%2fhD7cJlgTdFHyEsnTn%2b4uv2nPNxWx6GI2Xs2uJpaiQSb77JLTr9b66o4tzMTjdCqeNzSZVTiiFSJwkgwSAuOkickJ6uc4BLmNod%2bPbw%2bCa8mFVe5CUk9vRL9CwWM%3d",
+                "timeToConnectInSeconds": 38
             },
-            "transcript": " Thank you for calling Lee Filter. For a new gutter system, please press 1.",
-            "summary": "The call was an automated message from Lee Filter regarding a new gutter system.",
+            "transcript": " This call may be recorded for quality assurance purposes.  Please hold to be connected.  Calls and appointments may be recorded for quality and training purposes.  Thank you for calling Bachman's Roofing, Solar, and Exteriors.  This is Katie.  How can I assist you?  Yes, ma'am.  Yes, ma'am.  Is this not Western Soda Blasting?  No, sir.  This is Bachman's Roofing, Solar, and Exteriors.  Okay.  All right.  Thank you.  This is Katie.  How can I assist you?  Yes, ma'am.  Is this not Western Soda Blasting?  No, sir.  This is Bachman's Roofing, Solar, and Exteriors.  Okay.  All right. ",
+            "summary": "A caller mistakenly contacted Bachman's Roofing, Solar, and Exteriors instead of Western Soda Blasting. The representative clarified the company's identity to the caller. The call ended after the clarification.",
             "sentiment": "Neutral",
             "bullets": [
-                "Press 1 for a new gutter system"
+                "Caller intended to reach Western Soda Blasting.",
+                "Representative clarified the company identity."
             ]
-        },
-    ]
+        }
+  ]
 }
 ```
 
