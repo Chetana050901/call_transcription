@@ -55,43 +55,51 @@ npm install express axios tmp form-data googleapis
     "transactionId": "TR8cb57645-f679-4a71-b920-88e170bcb09d",
     "enrichedCalls": [
          {
-            "callId": "RGB6FC632A251AB107C98C3ECBC27DE81BA8F50DA6FV3LX301",
-            "timestamp": "2025-07-07T13:59:05.543Z",
-            "campaignId": "CA8278ed3f26e9495b881fe3833174d007",
-            "campaignName": "Roofing Contractors",
-            "payout": 0,
-            "duration": 78,
-            "hasRecording": true,
-            "recordingUrl": "https://media.ringba.com/recording-public?v=v1&k=Nt3KXBilep97jRQlJvMpmJyCLePl9mxk%2bYxczu7%2b%2ft2vNmEnqvNp9tiY60swUOeXzhL6O0lk0rHFhQExXW17Efa2ETFRRIezYJWb1mc8JLjMw0UnUlydFz6m3lPU3jlaabvYJZgxlPQh8NZQ8WpK6Xa%2b44AsxNn%2fhD7cJlgTdFHyEsnTn%2b4uv2nPNxWx6GI2Xs2uJpaiQSb77JLTr9b66o4tzMTjdCqeNzSZVTiiFSJwkgwSAuOkickJ6uc4BLmNod%2bPbw%2bCa8mFVe5CUk9vRL9CwWM%3d",
-            "rawJson": {
-                "campaignName": "Roofing Contractors",
-                "campaignId": "CA8278ed3f26e9495b881fe3833174d007",
-                "inboundCallId": "RGB6FC632A251AB107C98C3ECBC27DE81BA8F50DA6FV3LX301",
-                "callDt": 1751896745543,
-                "inboundPhoneNumber": "+12259335505",
-                "number": "+18338052312",
-                "numberPoolId": "",
-                "numberPoolName": "",
-                "timeToCallInSeconds": 0,
-                "callLengthInSeconds": 78,
-                "connectedCallLengthInSeconds": 40,
-                "hasConnected": true,
-                "isDuplicate": false,
-                "hasPreviouslyConnected": false,
-                "isLive": false,
-                "recordingUrl": "https://media.ringba.com/recording-public?v=v1&k=Nt3KXBilep97jRQlJvMpmJyCLePl9mxk%2bYxczu7%2b%2ft2vNmEnqvNp9tiY60swUOeXzhL6O0lk0rHFhQExXW17Efa2ETFRRIezYJWb1mc8JLjMw0UnUlydFz6m3lPU3jlaabvYJZgxlPQh8NZQ8WpK6Xa%2b44AsxNn%2fhD7cJlgTdFHyEsnTn%2b4uv2nPNxWx6GI2Xs2uJpaiQSb77JLTr9b66o4tzMTjdCqeNzSZVTiiFSJwkgwSAuOkickJ6uc4BLmNod%2bPbw%2bCa8mFVe5CUk9vRL9CwWM%3d",
-                "timeToConnectInSeconds": 38
-            },
-            "transcript": " This call may be recorded for quality assurance purposes.  Please hold to be connected.  Calls and appointments may be recorded for quality and training purposes.  Thank you for calling Bachman's Roofing, Solar, and Exteriors.  This is Katie.  How can I assist you?  Yes, ma'am.  Yes, ma'am.  Is this not Western Soda Blasting?  No, sir.  This is Bachman's Roofing, Solar, and Exteriors.  Okay.  All right.  Thank you.  This is Katie.  How can I assist you?  Yes, ma'am.  Is this not Western Soda Blasting?  No, sir.  This is Bachman's Roofing, Solar, and Exteriors.  Okay.  All right. ",
-            "summary": "A caller mistakenly contacted Bachman's Roofing, Solar, and Exteriors instead of Western Soda Blasting. The representative clarified the company's identity to the caller. The call ended after the clarification.",
-            "sentiment": "Neutral",
-            "bullets": [
-                "Caller intended to reach Western Soda Blasting.",
-                "Representative clarified the company identity."
-            ]
-        }
+  "success": true,
+  "recordsProcessed": 5,
+  "inserted": 5,
+  "updated": 0,
+  "transactionId": "TR12345678-aaaa-bbbb-cccc-1234567890ab",
+  "enrichedCalls": [
+    {
+      "callId": "CALL1234567890ABCDEF",
+      "timestamp": "2025-07-10T10:30:00.000Z",
+      "campaignId": "CA9876543210abcdef",
+      "campaignName": "Home Improvement",
+      "payout": 25,
+      "duration": 120,
+      "hasRecording": true,
+      "recordingUrl": "https://example.com/recording.mp3",
+      "rawJson": {
+        "campaignName": "Home Improvement",
+        "campaignId": "CA9876543210abcdef",
+        "inboundCallId": "CALL1234567890ABCDEF",
+        "callDt": 1752000000000,
+        "inboundPhoneNumber": "+1234567890",
+        "number": "+0987654321",
+        "numberPoolId": "POOL001",
+        "numberPoolName": "Main Pool",
+        "timeToCallInSeconds": 2,
+        "callLengthInSeconds": 120,
+        "connectedCallLengthInSeconds": 100,
+        "hasConnected": true,
+        "isDuplicate": false,
+        "hasPreviouslyConnected": false,
+        "isLive": false,
+        "recordingUrl": "https://example.com/recording.mp3",
+        "timeToConnectInSeconds": 3
+      },
+      "transcript": "Thank you for calling Home Improvement Services. How may I help you? Hi, I need help with my kitchen renovation. Sure, I can assist you with that.",
+      "summary": "Caller inquired about kitchen renovation services. Representative provided assistance.",
+      "sentiment": "Positive",
+      "bullets": [
+        "Caller asked about kitchen renovation.",
+        "Representative assisted with information."
+      ]
+    }
   ]
 }
+
 ```
 
 ## What It Does
