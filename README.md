@@ -1,4 +1,5 @@
-# Ringba Call Processing API
+# Call Transcription 
+## Ringba Call Processing API
 A Node.js service that processes Ringba call logs, transcribes recordings, analyzes sentiment, and exports data to Google Sheets.
 
 ## Features
